@@ -1,1 +1,57 @@
+/* 
+coolors palette
+#157A6E
+#499F68
+#77B28C
+#C2C5BB
+#B4654A
+*/
 
+body {
+    background-color: #C2C5BB; 
+}
+
+.bg-primary {
+    background-color: #157A6E !important;
+}
+
+.navbar-brand {
+    font-family: 'Young Serif', serif;
+}
+
+/* .btn-info {
+    color: #F5DFBB;
+    background-color: #F2542D; 
+    border-color: #127475; 
+} */
+
+.btn-primary {
+    font-size: 150%;
+    background-color: #157A6E; 
+    border-color: #157A6E;
+}
+.btn-primary:hover {
+    background-color: #105c53; 
+}
+
+.form-group {
+    margin-top: 16px;
+}
+.btn-outline-primary {
+    color: #157A6E; 
+    border-color: #157A6E;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    /* color: #157A6E;  */
+    border-color: #499F68;
+    background-color: #499F68;
+}
+
+.btn-secondary {
+    background-color: #499F68; 
+    border-color: #499F68;
+}
+
+.fixed-bottom .material-icons {
+    color: white;
+}
